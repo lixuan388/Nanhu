@@ -1,0 +1,44 @@
+body
+{
+	width:360px;
+
+    	background-color: #f8f8f8;
+    	margin: auto;
+	
+}
+
+.TabbarPage
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom:0;
+	left:0;	
+	overflow: hidden;
+}
+
+.weui-form-preview {
+    font-size: 12px;
+}
+.weui-form-preview__hd {
+    line-height: 1.5em;
+}
+.weui-form-preview__bd {
+    line-height: 1.5em;
+}
+.weui-form-preview__item em
+{
+	padding-right: 5px;
+}
+
+.weui-tabbar-tx {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    z-index: 500;
+    bottom: 0;
+    width: 100%;
+    background-color: #f7f7fa;
+}
+
